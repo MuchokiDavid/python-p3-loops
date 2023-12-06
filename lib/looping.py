@@ -17,9 +17,8 @@ def square_integers(int_list):
 mess = square_integers([1,2,3,4,5])
 print(mess)
 
-def fizzbuzz():
+def fizzbuzz(numbers):
     # code goes here!
-    numbers = 100
     while(numbers>0):
         if (numbers % 5==0 and numbers % 3 ==0):
             print('FizzBuzz')
@@ -30,4 +29,4 @@ def fizzbuzz():
         else:
             print (numbers)
         numbers-=1
-fizzbuzz()
+fizzbuzz(100)
